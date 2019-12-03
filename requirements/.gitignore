@@ -1,0 +1,9 @@
+*.egg-info
+*.pyc
+.*.swp
+*~
+.tox
+.testrepository
+AUTHORS
+ChangeLog
+dist
