@@ -124,7 +124,7 @@ class DetailView(horizon_tabs.TabbedTableView):
         # Todo(saurabhs) Set mgmt_url to dispaly Mgmt Console URL on
         # cluster details page
         # for instance in cluster.instances:
-        #   if instance['type'] == "master":
+        #   if instance['type'] == "main":
         #       cluster.mgmt_url = "https://%s:5450/webui" % instance['ip'][0]
 
         return cluster
